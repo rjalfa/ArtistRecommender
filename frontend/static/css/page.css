@@ -1,0 +1,64 @@
+.song-div {
+	position: absolute;
+	border: 1px solid #ddd;
+	height:25%;
+	width:16.67%;
+	background:	url('#');
+	background-size: cover;
+}
+
+.song-div:hover {
+	background-color: rgba(200,200,230,0.5);
+}
+
+.selected {
+	background: rgba(0,0,250,0.5);
+}
+.type3 {
+    border-radius: 50%;
+    width: 12.5%;
+    display: table-cell;
+    height: 25%;
+    background: white;
+    border: 5px solid blue;
+    z-index: 10;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	vertical-align:middle;
+	text-align: middle;
+	padding: 0;
+}
+
+#logo {
+	position: absolute;
+	top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	width: 100%
+}
+
+.song-div > .backdrop {
+	font-size: 8vw;
+	font-weight: bold;
+	color: lightgray;
+	position: absolute;
+	z-index: 3;
+}
+
+.song-div > .content {
+	position: absolute;
+	z-index: 4;	
+}
+
+#myModal {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
