@@ -46,7 +46,7 @@
 .song-div > .backdrop {
 	font-size: 8vw;
 	font-weight: bold;
-	color: lightgray;
+	color: #fff;
 	position: absolute;
 	z-index: 3;
 }

@@ -37,9 +37,14 @@ addClickBehavior = function() {
 	});
 };
 
+randomNum = function() {
+	return Math.floor((Math.random() * 254) + 1);
+}
+
 addCellData = function() {
 	$('div.song-div').each(function() {
 		aname = mbids[Number($(this).attr('id').split('-')[2])]['name'];
+		$(this).css('background-color','rgba(' + randomNum() + ',' + randomNum() + ',' + randomNum() + ',' + '0.25)');
 		$(this).children('.backdrop').html(aname.getInitials());
 		$(this).children('.content').html(aname);
 	});
